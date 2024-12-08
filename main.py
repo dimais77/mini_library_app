@@ -1,6 +1,6 @@
 import json
-from library import Library
-from storage import Storage
+from mini_library_app.library import Library
+from mini_library_app.storage import Storage
 
 
 def load_config(config_file: str) -> dict:
@@ -61,7 +61,7 @@ def main():
                 if 1 <= field_choice <= len(search_fields):
                     field: str = search_fields[field_choice - 1]
                     query: str = input(
-                        f"Введите значение для поиска по '{field}': ").strip()
+                        f"Введите значение для поиска по '{field.capitalize()}': ").strip()
                     kwargs: Dict[str, str] = {field: query}
                     results: List[Book] = library.search_books(**kwargs)
                     if results:

@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
-from ..library import Library, Book
+from mini_library_app.library import Library, Book
 
 
 class TestLibrary(unittest.TestCase):
