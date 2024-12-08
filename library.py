@@ -1,5 +1,5 @@
-from typing import Dict, List, Optional
-from .storage import Storage
+from typing import Dict, List
+from mini_library_app.storage import Storage
 
 
 class Book:

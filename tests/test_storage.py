@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from ..storage import Storage
+from mini_library_app.storage import Storage
 
 
 class TestStorage(unittest.TestCase):
