@@ -1,0 +1,13 @@
+{
+  "data_file": "library.json",
+  "book_statuses": {
+    "STATUS_AVAILABLE": "в наличии",
+    "STATUS_BORROWED": "выдана",
+    "STATUS_BOOKED": "забронирована"
+  },
+  "search_fields": [
+    "title",
+    "author",
+    "year"
+  ]
+}
